@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title> Animated Flower</title>
+  <style>
+    /* Add some basic styling to our page */
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    .flower {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      background-color: #ff69b4;
+      border-radius: 50%;
+      animation: bloom 3s infinite;
+    }
+    .petal {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 20px;
+      height: 20px;
+      background-color: #ff69b4;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .petal:nth-child(1) {
+      animation: petal-1 3s infinite;
+    }
+    .petal:nth-child(2) {
+      animation: petal-2 3s infinite;
+    }
+    .petal:nth-child(3) {
+      animation: petal-3 3s infinite;
+    }
+    .petal:nth-child(4) {
+      animation: petal-4 3s infinite;
+    }
+    .petal:nth-child(5) {
+      animation: petal-5 3s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="flower">
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+    <div class="petal"></div>
+  </div>
+</body>
+</html>
