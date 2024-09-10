@@ -1,4 +1,4 @@
-//Insertion at beginning of Singly linked list (works)
+//Insertion at beginning of Singly linked list 
 
 #include<iostream>
 using namespace std;
