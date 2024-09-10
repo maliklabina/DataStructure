@@ -1,4 +1,4 @@
-//creating a node in singly linked list (work)
+//creating a node in singly linked list 
 
 #include<iostream>
 using namespace std;
