@@ -1,5 +1,7 @@
 //Binary search
 //array must be sorted
+//Time Complexity - O(logn)
+
 #include<iostream>
 using namespace std;
 
